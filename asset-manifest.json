@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/woody-allen-quotes/static/css/main.c74c2eb8.css",
+    "main.js": "/woody-allen-quotes/static/js/main.ac41522b.js",
+    "static/js/787.d421cf23.chunk.js": "/woody-allen-quotes/static/js/787.d421cf23.chunk.js",
+    "index.html": "/woody-allen-quotes/index.html",
+    "main.c74c2eb8.css.map": "/woody-allen-quotes/static/css/main.c74c2eb8.css.map",
+    "main.ac41522b.js.map": "/woody-allen-quotes/static/js/main.ac41522b.js.map",
+    "787.d421cf23.chunk.js.map": "/woody-allen-quotes/static/js/787.d421cf23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c74c2eb8.css",
+    "static/js/main.ac41522b.js"
+  ]
+}
