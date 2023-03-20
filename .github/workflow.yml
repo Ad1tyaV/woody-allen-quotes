@@ -1,0 +1,15 @@
+name: Deploy new/update lines.
+
+on:
+  push:
+    paths:
+      - 'src/data/allLines.json'
+
+jobs:
+  run-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run command
+        run: yarn deploy
