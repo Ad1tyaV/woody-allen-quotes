@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import allLinesReducer from "../reducers/allLines";
+import { allLinesSlice } from "../reducers/allLines";
 
 const store = configureStore({
   reducer: {
-    woodyAllenQuotes: allLinesReducer,
+    woodyAllenQuotes: allLinesSlice.reducer
   },
 });
 
