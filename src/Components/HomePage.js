@@ -5,9 +5,10 @@ import AssignmentIcon from "@material-ui/icons/Assignment";
 import ShuffleIcon from "@material-ui/icons/Shuffle";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { woodyAllenQuotes } from "../redux-setup/reducers/allLines";
 
 function HomePage() {
-  const allLines = useSelector((state) => state.allLines);
+  const allLines = useSelector(woodyAllenQuotes);
   const [randomIndex, setRandomIndex] = useState(
     Math.floor(Math.random() * allLines.length)
   );

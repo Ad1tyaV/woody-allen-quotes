@@ -1,12 +1,14 @@
-const initialState = require('../../data/allLines.json')
+const { createSlice } = require("@reduxjs/toolkit");
+const initialState = require("../../data/allLines.json");
 
-const allLines = (state = initialState, action) => {
-  switch (action.type) {
-    case "GET_LINES":
-      return state;
-    default:
-      return state;
-  }
-};
+const allLinesSlice = createSlice({
+  name: "woodyAllenQuotes",
+  initialState: {
+    allLines: initialState,
+  },
+  reducers: {},
+});
 
-export default allLines;
+export const woodyAllenQuotes = (state) => state.woodyAllenQuotes.allLines;
+
+export default allLinesSlice.reducer;
